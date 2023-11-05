@@ -10,6 +10,6 @@ export default function migrateUsers(): any {
         User.create({name: 'Kim', surname:'Tenderly'});
         User.create({name: 'Casey', surname:'Stewart'});
 
-        console.log('Users are migrated successfully!');
-    }).catch((err:Error) => {console.log(err)});  
+        console.log('Users are migrated successfully!');        
+    }).catch((err:Error) => {console.log(err)});
 }

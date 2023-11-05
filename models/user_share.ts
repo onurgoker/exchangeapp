@@ -1,0 +1,23 @@
+import { DataTypes } from "sequelize";
+import sequelize from "../config/database";
+
+const UserShare = sequelize.define('user_shares', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    share_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+  }, {
+    // Other model options go here
+  });
+
+export default UserShare;

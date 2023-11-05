@@ -1,10 +1,10 @@
 import express, { Request, Response , Application } from 'express';
-import migrateUsers from './config/migration';
+import migrate from './migrations';
 
 const app: Application = express();
 const port = process.env.SERVER_PORT ?? 8000;
   
-migrateUsers();
+migrate();
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Welcome to Express & TypeScript Server');
