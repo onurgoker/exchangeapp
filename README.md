@@ -26,3 +26,9 @@ Execute the following command in the root directory to run the application:
 ~~~
 npm run dev
 ~~~
+
+Sample postman colllection is also found in the root directory as:
+
+~~~
+ExchangeApp.postman_collection.json
+~~~
