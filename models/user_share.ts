@@ -16,6 +16,14 @@ const UserShare = sequelize.define('user_shares', {
       type: DataTypes.INTEGER,
       allowNull: false
     },
+    amount: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    price: {
+      type: DataTypes.DOUBLE,
+      allowNull: false
+    },
   }, {
     // Other model options go here
   });

@@ -16,6 +16,10 @@ const Share = sequelize.define('shares', {
       type: DataTypes.DECIMAL,
       allowNull: false
     },
+    amount: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    }
   }, {
     // Other model options go here
   });
