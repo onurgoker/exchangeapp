@@ -2,6 +2,11 @@
 This project is focused on an application that provides user to play arbitrarily trading game.
 
 ## Developer Notes:
+
+The project is set to be executed by using following techstack:
+- NodeJS version v18.0 or later
+- PostgreSQL version v16.0 or later
+
 Created By: Onur Göker  
 E-mail: info[at]onurgoker.com
 
